@@ -1,0 +1,37 @@
+section {
+  width: auto;
+  height: auto;
+  text-align: center;
+  /* text-align:block; */
+  border: 15px solid black;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+  /* TODO: Add a margin property */
+  margin: auto;
+  /* TODO: Add a padding property */
+  padding: 20px;
+  /* TODO: Add a border property */
+  border: ;
+}
+
+#no1{
+ background-color: blue; 
+ border-color: brown;
+}
+
+#no2{
+  margin:auto;
+  padding-inline-start: 10%;
+}
+
+#no3{
+  margin-block-end: 35px;
+}
+
+#no4{
+padding-block: 30px;
+}

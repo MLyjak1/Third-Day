@@ -1,0 +1,43 @@
+/* TODO: Universal Wildcard Selector Type */
+* {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+
+/* TODO: All body area unless overridden by speificity */
+body {
+  background-color: lemonchiffon;
+}
+/* NOTICE YOU CAN USE A COMMA TO APPLY THE SAME ATTRIBUTES TO 2 DIFFERENT CLASSIFIERS */
+header,
+footer {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  color: #f0ead6;
+  background-color: #191970;
+}
+
+figure {
+  width: 200px;
+  background-color: #f0ead6;
+}
+
+/* TODO: Class specific to "Highlighted-Text" */
+.highlighted-text {
+  font-weight: bolder;
+  color: green;
+}
+li{
+  color: purple;
+}
+
+/* TODO: ID specific to "Contact-Section" */
+#contact-section {
+  background-color: #f0ead6;
+}
+H2{
+  color: orange;
+}
+#contact_label{
+  background-color: black;
+}
